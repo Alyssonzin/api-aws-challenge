@@ -6,7 +6,7 @@ export async function getTables(req: Request, res: Response) {
 
     try {
         const data = await DynamoClient.send(new ListTablesCommand({}));
-        res.json(data);
+        res.status(200).json(data);
     } catch (error) {
         res.status(500).json(error);
     }
