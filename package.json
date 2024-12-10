@@ -11,8 +11,11 @@
   "description": "",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.705.0",
+    "@aws-sdk/client-sqs": "^3.699.0",
+    "@aws-solutions-constructs/aws-sqs-lambda": "^2.74.0",
     "@types/express": "^5.0.0",
     "aws": "^0.0.3-2",
+    "aws-sdk": "^2.1692.0",
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.1"

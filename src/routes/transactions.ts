@@ -5,6 +5,6 @@ const router = Router();
 
 router.get('/', Controller.getTables);
 
-router.post('/');
+router.post('/', Controller.criaTransactions);
 
 export default router;
